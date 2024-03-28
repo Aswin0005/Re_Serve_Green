@@ -2,7 +2,7 @@ const Home = () => {
   return (
     <div className="relative bg-[#083a33] w-full h-[100vh] ">
       <img
-        src="/Img/Ellipse 2 (1).svg"
+        src="Img/Ellipse_2_(1).svg"
         className="absolute w-[100vh] h-[100vh] right-0 opacity-40"
       ></img>
       <div className="bg-bg-pic bg-cover w-full h-full opacity-45"></div>
