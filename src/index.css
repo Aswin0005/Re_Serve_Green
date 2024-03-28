@@ -4,3 +4,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.glass{
+background: rgba(255, 255, 255, .1);
+backdrop-filter: blur(10px);
+}
+
+.buttonHov:hover{
+  backdrop-filter: blur(10px);
+}

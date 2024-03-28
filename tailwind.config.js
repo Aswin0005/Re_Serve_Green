@@ -10,6 +10,12 @@ export default {
       backgroundImage: {
         'bg-pic': "url('/Img/Bg_pic.svg')",
       },
+      colors: {
+        glassy: 'rgba(255, 255, 255, .1)',
+      },
+      boxShadow: {
+        glassy: '0 25 45 rgba(0,0,0, .2)',
+      },
     },
   },
   plugins: [],
