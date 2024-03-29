@@ -13,3 +13,38 @@ backdrop-filter: blur(10px);
 .buttonHov:hover{
   backdrop-filter: blur(10px);
 }
+
+.double-color{
+   background: linear-gradient(to right, #03473D 0% ,#03473D 50%, white 50%,white 100%);
+   /* background-image: url('/Img/Bg_Sketch.png');
+    background-size: cover;
+    width: 50%;
+    height: 100vh;  */
+}
+
+.bg-img{
+    background-image: url('/Img/Bg_Sketch.png');
+    background-size: cover;
+    width: 50%;
+    height: 100vh; 
+  }
+
+.part-col{
+    background:  linear-gradient(to right, white 0% ,white 50%, black 50%,black 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+  }
+
+.how-step{
+  background: linear-gradient(to right , #03473D 0% , #03473D 50% , white 50% , white 100%);
+}
+
+.semi-circle{
+  border-radius: 300px 300px 0 0;
+}
+
+.for-you{
+  background:  linear-gradient(to bottom, #14A856 0% ,#14A856 50%, black 50%,black 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}

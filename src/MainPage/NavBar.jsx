@@ -20,7 +20,7 @@ const NavBar = () => {
 
   return (
     <div
-      className={`fixed w-[95%] h-20 top-10 left-[50%] rounded-md -translate-x-1/2  z-10 ${
+      className={`fixed w-[95%] h-20 top-10 left-[50%] rounded-md -translate-x-1/2  z-20 ${
         NavBarColor ? 'bg-[#14A856]' : 'bg-white'
       }`}
     >
@@ -40,7 +40,7 @@ const NavBar = () => {
           <button className="font-lato italic font-semibold">Services</button>
           <button className="font-lato italic font-semibold">About</button>
           <button
-            className={`font-lato italic font-semibold text-white bg-[#14A856] rounded-xl h-10 px-4 ${
+            className={`font-lato italic font-semibold bg-[#14A856] rounded-xl h-10 px-4 ${
               NavBarColor ? 'bg-white text-black' : 'bg-[#14A856]'
             }`}
           >

@@ -9,6 +9,8 @@ export default {
       },
       backgroundImage: {
         'bg-pic': "url('/Img/Bg_pic.svg')",
+        'bg-sketch' : "url('/Img/Bg_Sketch (3).png')",
+        'bg-lines' : "url('/Img/Lines_pic.png')",
       },
       colors: {
         glassy: 'rgba(255, 255, 255, .1)',
