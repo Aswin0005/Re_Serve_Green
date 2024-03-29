@@ -48,3 +48,26 @@ backdrop-filter: blur(10px);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
 }
+
+.bg-world{
+  background-image: url('/Img/FoodGlobe_pic.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.bg-man{
+  background-image: url('/Img/Group.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+
+}
+
+.bg-lines{
+    background-image: url('/Img/Lines1_pic.png');
+    background-size: cover;
+    width: 50%;
+    height: 100vh; 
+    
+  }
