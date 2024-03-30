@@ -6,12 +6,12 @@ const HomeMade = () => {
       </div>
 
       {/* HomeMade Pic */}
-      <div className="absolute right-[4%] w-[700px] top-[30%] -translate-y-1/2 ">
+      <div className="absolute right-0 w-[650px] top-[10%] -translate-y-1/2 ">
         <img src="Img/HomeMade_pic.png" className="w-full"></img>
       </div>
 
       {/* HomeMade Details */}
-      <div className="flex flex-col absolute font-lato w-[400px] gap-7 leading-10 top-[30%] left-[12%] -translate-y-1/2">
+      <div className="flex flex-col absolute font-lato w-[400px] gap-7 leading-10 top-[8%] left-[12%] -translate-y-1/2">
         <p className="font-extrabold text-[60px] mx-auto">Home-Made</p>
         <p className="opacity-50 text-[18px] text-center leading-7">
           Experience homemade goodness delivered right to your doorstep with our
