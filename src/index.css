@@ -15,7 +15,10 @@ backdrop-filter: blur(10px);
 }
 
 .double-color{
-   background: linear-gradient(to right, #03473D 0% ,#03473D 50%, white 50%,white 100%);
+   background: linear-gradient(to right, #03473D 0% ,#03473D 50%, white 50%,white 100%),url('/Img/Bg_Sketch.png');
+   background-repeat: no-repeat;
+   background-blend-mode:hard-light;
+
    /* background-image: url('/Img/Bg_Sketch.png');
     background-size: cover;
     width: 50%;
@@ -71,3 +74,9 @@ backdrop-filter: blur(10px);
     height: 100vh; 
     
   }
+
+.bg-all{
+  background: #03473da1 url('/Img/Bg_pic.svg');
+  background-size: cover;
+  background-blend-mode:soft-light;
+}

@@ -1,17 +1,16 @@
 const RoadMap = () => {
   return (
-    <div className="relative h-[400vh] overflow-hidden">
+    <div className="relative h-[400vh]">
       {/* RoadMap Images */}
-      <div className="absolute -top-7 ">
+      <div className="absolute -top-7">
         <img src="Img/Vector 1.svg" className=""></img>
       </div>
-      <div className="absolute top-[5%] w-[1000px] ">
+      <div className="absolute top-[5%] w-[70%] ">
         <img src="Img/Vector 2.svg"></img>
       </div>
-      <div className="absolute top-[36%] right-0 w-[1000px]">
+      <div className="absolute bottom-[7%] right-0 w-[70%]">
         <img src="Img/Vector 3.svg"></img>
       </div>
-
       {/* Buildings Details */}
       {/* Restaurant */}
       <div className="absolute z-10 right-[10%] top-[8%] w-[600px]">
@@ -38,11 +37,11 @@ const RoadMap = () => {
       </div>
 
       {/* Bakery */}
-      <div className="absolute z-10 left-[7%] top-[30%] w-[600px]">
+      <div className="absolute z-10 left-[7%] top-[47%] w-[600px] -translate-y-1/2">
         <img src="Img/Bakery.png" className="w-full"></img>
       </div>
 
-      <div className="flex flex-col absolute font-lato w-[400px] gap-7 leading-10 top-[37%] right-[12%]">
+      <div className="flex flex-col absolute font-lato w-[400px] gap-7 leading-10 top-[47%] right-[12%] -translate-y-1/2">
         <p className="font-extrabold text-[60px] mx-auto">Bakeries</p>
         <p className="opacity-50 text-[18px] text-center leading-7">
           Experience a world of delicious possibilities with our app, bringing
@@ -57,11 +56,11 @@ const RoadMap = () => {
 
       {/* HomeMade */}
 
-      <div className="absolute z-10 right-[5%] top-[67%] w-[600px]">
+      <div className="absolute right-[4%]  w-[700px] bottom-[14%] ">
         <img src="Img/HomeMade_pic.png" className="w-full"></img>
       </div>
 
-      <div className="flex flex-col absolute font-lato w-[400px] gap-7 leading-10 top-[67%] left-[12%]">
+      <div className="flex flex-col absolute font-lato w-[400px] gap-7 leading-10 bottom-[14%] left-[12%] -translate-y-1/2">
         <p className="font-extrabold text-[60px] mx-auto">Home-Made</p>
         <p className="opacity-50 text-[18px] text-center leading-7">
           Experience homemade goodness delivered right to your doorstep with our
@@ -75,7 +74,8 @@ const RoadMap = () => {
       </div>
 
       {/* Rounded Bars after roadMap */}
-      <div className="absolute flex bottom-12 gap-16 left-12 justify-center items-center">
+
+      <div className="absolute flex justify-evenly items-center w-full bottom-4">
         <div className="flex flex-col gap-7">
           <div className=" w-[450px] p-3 flex rounded-3xl shadow-2xl bg-gradient-to-l from-[#14A856] to-white">
             <div className="flex justify-center items-center w-[40%]">
@@ -104,7 +104,7 @@ const RoadMap = () => {
           </div>
         </div>
 
-        <div className="flex flex-col justify-center items-center h-[250px] w-[550px] bg-gradient-to-t from-[#14A856] to-white rounded-3xl shadow-2xl">
+        <div className="flex flex-col max-md:hidden justify-center items-center h-[250px] w-[550px] bg-gradient-to-t from-[#14A856] to-white rounded-3xl shadow-2xl">
           <p className="font-lato font-extrabold text-center text-2xl">
             Choose Your Preference
           </p>
@@ -134,15 +134,15 @@ const RoadMap = () => {
             </div>
           </div>
         </div>
-      </div>
 
-      <div className="absolute bottom-20 right-28 w-[200px] leading-[100px]">
-        <p className="font-lato font-extrabold text-[90px] text-center">
-          For{' '}
-          <span className="text-[110px] bg-gradient-to-b from-[#14A856] to-black bg-clip-text text-transparent">
-            You
-          </span>
-        </p>
+        <div className="w-[200px] leading-[100px] max-xl:hidden xl:visible">
+          <p className="font-lato font-extrabold text-[90px] text-center">
+            For{' '}
+            <span className="text-[110px] bg-gradient-to-b from-[#14A856] to-black bg-clip-text text-transparent">
+              You
+            </span>
+          </p>
+        </div>
       </div>
     </div>
   );

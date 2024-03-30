@@ -20,7 +20,7 @@ const NavBar = () => {
 
   return (
     <div
-      className={`fixed w-[95%] h-20 top-10 left-[50%] rounded-md -translate-x-1/2  z-20 ${
+      className={`fixed w-[95%] h-20 top-8 left-[50%] rounded-md -translate-x-1/2  z-20 ${
         NavBarColor ? 'bg-[#14A856]' : 'bg-white'
       }`}
     >
