@@ -68,14 +68,14 @@ const FaQ = () => {
 
   return (
     <div className="relative h-[100vh] bg-man overflow-hidden">
-      <p className="absolute z-10 font-lato font-extrabold text-7xl left-1/2 -translate-x-1/2 top-[20%]">
+      <p className="absolute z-10 font-lato font-extrabold text-7xl left-1/2 -translate-x-1/2 top-[15%]">
         FAQ's
       </p>
 
       {questions.map((e, id) => {
         return (
           <div
-            className="relative z-10 w-[800px] h-auto bg-[#f5f5f5] rounded-lg shadow-xl p-3 left-1/2 top-[35%] -translate-x-1/2 mb-4 font-lato font-semibold space-y-4"
+            className="relative z-10 w-[800px] h-auto bg-[#f5f5f5] rounded-lg shadow-xl p-3 left-1/2 top-[30%] -translate-x-1/2 mb-4 font-lato font-semibold space-y-4"
             key={id}
           >
             <div className="flex justify-between ">
