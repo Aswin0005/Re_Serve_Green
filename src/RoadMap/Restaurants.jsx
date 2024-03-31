@@ -1,11 +1,11 @@
 const Restaurant = () => {
     return (
       <div className="relative h-[985px]">
-        <div className="absolute -top-7">
+        <div className="absolute -top-7 right-0">
           <img src="Img/Vector 1.svg" className=""></img>
         </div>
         {/* Restaurant Img */}
-        <div className="absolute right-[8%] top-[40%] w-[40%] -translate-y-1/2">
+        <div className="absolute right-[8%] top-[40%] w-[35%] -translate-y-1/2">
           <img src="Img/Restaurant_pic.png"></img>
         </div>
 

@@ -1,12 +1,12 @@
 const HomeMade = () => {
   return (
     <div className="relative h-[1000px]">
-      <div className="absolute -top-[90%] right-0">
+      <div className="absolute -top-[90%] right-0 ">
         <img src="Img/Vector 3.svg" className="w-[1000px]"></img>
       </div>
 
       {/* HomeMade Pic */}
-      <div className="absolute right-0 w-[40%] top-[10%] -translate-y-1/2 ">
+      <div className="absolute right-0 w-[35%] top-[10%] -translate-y-1/2 ">
         <img src="Img/HomeMade_pic.png" className="w-full"></img>
       </div>
 
