@@ -5,12 +5,12 @@ const Bakery = () => {
           <img src="Img/Vector 2.svg" className="w-[1000px]"></img>
         </div>
         {/* Bakery Img */}
-        <div className="absolute left-[8%] top-[20%] w-[600px] -translate-y-1/2">
+        <div className="absolute left-[8%] top-[20%] w-[40%] -translate-y-1/2">
           <img src="Img/Bakery.png" className="w-full"></img>
         </div>
 
         {/* Bakery Details */}
-        <div className="flex flex-col absolute font-lato w-[400px] gap-7 leading-10 top-[20%] right-[10%] -translate-y-1/2">
+        <div className="flex flex-col absolute font-lato w-[30%] gap-7 leading-10 top-[20%] right-[10%] -translate-y-1/2">
           <p className="font-extrabold text-[60px] mx-auto">Bakeries</p>
           <p className="opacity-50 text-[18px] text-center leading-7">
             Experience a world of delicious possibilities with our app, bringing
