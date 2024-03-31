@@ -5,7 +5,7 @@ const Restaurant = () => {
           <img src="Img/Vector 1.svg" className=""></img>
         </div>
         {/* Restaurant Img */}
-        <div className="absolute right-[10%] top-[40%] w-[40%] -translate-y-1/2">
+        <div className="absolute right-[8%] top-[40%] w-[40%] -translate-y-1/2">
           <img src="Img/Restaurant_pic.png"></img>
         </div>
 
@@ -23,7 +23,7 @@ const Restaurant = () => {
           </button>
         </div>
 
-        <div className="flex flex-col absolute font-lato w-[30%] leading-[35px] bottom-[25%] left-[53%] -translate-x-1/2 -translate-y-1/2">
+        <div className="flex flex-col absolute font-lato w-[30%] leading-[35px] bottom-[25%] left-[55%] -translate-x-1/2">
           <p className="text-[25px] font-extrabold">Service By</p>
           <p className="font-extrabold text-[45px]">Re-Serve</p>
         </div>

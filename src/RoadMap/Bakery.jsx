@@ -5,7 +5,7 @@ const Bakery = () => {
           <img src="Img/Vector 2.svg" className="w-[1000px]"></img>
         </div>
         {/* Bakery Img */}
-        <div className="absolute left-[8%] top-[20%] w-[40%] -translate-y-1/2">
+        <div className="absolute left-[7%] top-[20%] w-[40%] -translate-y-1/2">
           <img src="Img/Bakery.png" className="w-full"></img>
         </div>
 
